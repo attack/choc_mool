@@ -1,5 +1,8 @@
 # ChocMool
 
+[![Build Status](https://travis-ci.org/attack/choc_mool.png?branch=master)](https://travis-ci.org/attack/choc_mool)
+[![Code Climate](https://codeclimate.com/github/attack/choc_mool.png)](https://codeclimate.com/github/attack/choc_mool)
+
 Wraps a hash, allowing easy access to deeply nested values.
 
 ## Installation
@@ -89,3 +92,13 @@ data.fetch_each_with_index(:one) { |value, index| puts "#{index}: #{value}" }
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## Links
+
+* repo: http://github.com/attack/choc_mool
+* travis ci: https://travis-ci.org/attack/choc_mool
+* code climate: https://codeclimate.com/github/attack/choc_mool
+
+## Copyright
+
+Copyright (c) 2013-2014 Mark Gangl. See LICENSE for details.
